@@ -15,11 +15,11 @@ else
         git add --all
         git status
         echo "What is your commit message?"
-        read message
-        git commit -m "message"
+        read msg
+        git commit -m "$msg"
         echo "Which branch do you want to push your commit to?"
         read branch
-        git push origin branch
+        git push origin $msg
     fi
 fi
 echo ""
