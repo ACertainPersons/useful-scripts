@@ -19,7 +19,7 @@ else
         git commit -m "$msg"
         echo "Which branch do you want to push your commit to?"
         read branch
-        git push origin $msg
+        git push origin $branch
     fi
 fi
 echo ""
