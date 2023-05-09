@@ -1,7 +1,6 @@
 # Useful Scripts
 
 Hopefully the following scripts can serve you well. :)
-So far there is only one, but no one asked anyway.
 
 ## Documentation
 
