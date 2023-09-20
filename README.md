@@ -18,6 +18,5 @@ Hopefully the following scripts can serve you well. :)
 
 [`collatz.py`](python/collatz.py)
     <ul>
-        <li>A script that helps calculate the <a href="https://en.wikipedia.org/wiki/Collatz_conjecture">Collatz conjecture</a>
-        <li>I would like to add negative number support in the future
+        <li>A script that helps calculate the <a href="https://en.wikipedia.org/wiki/Collatz_conjecture">Collatz conjecture</a>e
     </ul>
