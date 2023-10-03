@@ -1,18 +1,19 @@
-from art import *
+from art import * #For the bigtext to work
 import time
 import os
 from datetime import datetime
 
-print("Paste this in your browser for the font list: \nhttps://www.ascii-art.site/FontList.html\n")
-font = input("Font for the clock (default font will be used if not specified): ")
+print("Paste this in your browser for the font list:")
+print("\x1b[1;4;34mhttps://www.ascii-art.site/FontList.html\n") #\x1b[1;4;34m used to display bold(1), underline(4), and blue(34) text
+font = input("\x1b[0mFont for the clock (default font will be used if not specified): ") #\x1b[0m used to reset the style
 
 if not font:
-    font = "big"
+    font = "big" #To display the default font
 
 def output(x): 
-    os.system('clear')
+    os.system('clear') 
     tprint(str(x), font=font)
-    time.sleep(0.09)
+    time.sleep(0.09) #This number could be arbitrary
         
 
 while True:
@@ -27,5 +28,5 @@ while True:
         mins = "0" + mins
     sec = str(sec)
     if int(sec) < 10:
-        sec = "0" + sec
+        sec = "0" + sec #There may be a better way using def to make this code more efficient
     output(hrs + ":" + mins + ":" + sec)
