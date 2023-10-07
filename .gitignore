@@ -1,3 +1,6 @@
 # ignore all .DS_Store
 *.DS_Store
 
+# ignore all .class
+*.class
+

@@ -9,6 +9,12 @@ Hopefully the following scripts can serve you well. :)
         <li>A script that stages, commits, and pushes for you!
         <li>Note: **There is no support for pull yet**
     </ul>
+
+[`Fib.java`](java/FIB.java)
+    <ul>
+        <li>A script that calculates the fibonacci sequence.
+        <li>Simply enter how many times for it to be done when prompted.
+    </ul>
     
 [`pi.py`](python/pi.py)
     <ul>
