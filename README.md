@@ -10,7 +10,7 @@ Hopefully the following scripts can serve you well. :)
         <li>Note: **There is no support for pull yet**
     </ul>
 
-[`Fib.java`](java/FIB.java)
+[`Fib.java`](java/Fib.java)
     <ul>
         <li>A script that calculates the fibonacci sequence.
         <li>Simply enter how many times for it to be done when prompted.
