@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from art import * #For the bigtext to work
 import time
 import os
